@@ -5,6 +5,8 @@
  */
 body {
   padding-top: 56px;
+  background-color: #2B2B2C;
+  color: white;
 }
 
 .carousel-item {
@@ -20,3 +22,4 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
