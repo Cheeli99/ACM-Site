@@ -95,27 +95,6 @@
     </div>
   </header>
 
-  <!-- Sliding div starts here -->
-    <div id="slider" style="right:-342px;">
-      <div id="sidebar" onclick="open_panel()"><img src="images/calendar.png"></div>
-    <div id="header">
-    <h2>Contact Form</h2>
-    <p>This is my form.Please fill it out.It's awesome!</p>
-    <input name="dname" type="text" value="Your Name">
-    <input name="demail" type="text" value="Your Email">
-    <h4>Query type</h4>
-    <select>
-    <option>General Query</option>
-    <option>Presales</option>
-    <option>Technical</option>
-    <option>Others</option>
-    </select>
-    <textarea>Message</textarea>
-    <button>Send Message</button>
-    </div>
-    </div>
-  <!-- Sliding div ends here -->
-
   <!-- Page Content -->
   <div class="container">
 
@@ -280,6 +259,17 @@
     </div>
     <!-- /.container -->
   </footer>
+
+  <!-- Sliding div starts here -->
+  <div id="slider" style="right:-430px;">
+    <div id="sidebar" onclick="open_panel()"><img class="sidebar_img" src="images/calendar.png"></div>
+      <div id="header">
+        <h2>Upcoming Events:</h2>
+        <h4>Enter date here</h4>
+        <p>Enter event here</p>
+      </div>
+  </div>
+  <!-- Sliding div ends here -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
