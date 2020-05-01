@@ -1,13 +1,13 @@
-p {
-border-bottom:1px dotted #d8d8d8;
-padding-bottom:15px;
-font-size:17px;
-}
-
 #slider {
 width:500px;
 top:200px;
 position:fixed;
+}
+
+#slider p {
+    border-bottom:1px dotted #d8d8d8;
+    padding-bottom:15px;
+    font-size:17px;
 }
 
 #header {
