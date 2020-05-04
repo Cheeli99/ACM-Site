@@ -14,7 +14,7 @@ position:fixed;
 width:260px;
 height:520px;
 position:absolute;
-right: 0;
+right:0;
 border:2px solid #d8d8d8;
 margin-left:40px;
 padding:20px 40px;
@@ -31,6 +31,7 @@ top:180px;
 #sidebar1 {
 position:absolute;
 top:180px;
+left:113px;
 box-shadow:0 0 8px gray
 }
 
